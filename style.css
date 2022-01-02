@@ -1,0 +1,67 @@
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+body{
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-position: 12% 12%;
+}
+
+#letters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0;
+}
+
+img {
+    height: 50vh;
+}
+
+#log, #log1, #log2 {
+    color: red;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.progress {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1023px){
+    #figure {
+        height: 70vh;
+    }
+    
+    #letters {
+        height: 70vh;
+    }
+    
+    #user_section {
+        height: 30vh;
+    }
+
+    img {
+        width: 70vh;
+        height: 70vh;
+    }
+}
+
+
